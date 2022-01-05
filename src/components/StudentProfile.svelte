@@ -1,7 +1,7 @@
 <script>
 	
-    import { TextField } from "smelte";
-    import {Button,Icon} from "smelte";
+    // import { TextField } from "smelte";
+    // import {Button,Icon} from "smelte";
     import Avatar from "../shared/Avatar.svelte";
 
     
@@ -12,7 +12,7 @@
 	
     <div class="align">
 
-        <div class="profile-pic">
+        <!-- <div class="profile-pic">
             <Avatar type="medium">
                 <img class="img-avat" src="../musty-avatar.jpg" alt="">
             </Avatar>
@@ -71,8 +71,8 @@
             <div>
 
                 <Button color="primary" dark block >Print ID</Button>
-            </div>
-        </form>
+            </div> -->
+        <!-- </form> -->
     </div>
 
 

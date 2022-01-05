@@ -3,8 +3,8 @@
 	import Vertical from "../shared/Vertical.svelte"
 	import Nav from "./Nav.svelte"
 	import MainContent from "./MainContent.svelte";
-    import { TextField } from "smelte";
-    import {Button,Icon} from "smelte";
+    // import { TextField } from "smelte";
+    // import {Button,Icon} from "smelte";
 
     export let active
 
@@ -93,7 +93,7 @@ console.log('hello')
 	
     <div class="align">
         <Header/>
-        <form action="" class="form" >
+        <!-- <form action="" class="form" >
             <div>
                 <TextField label="First Name" outlined hint="First Name" bind:value={fields.firstName} />
 
@@ -143,7 +143,7 @@ console.log('hello')
 
                 <Button color="primary" dark block on:click={submitHandler}>ADD STUDENT</Button>
             </div>
-        </form>
+        </form> -->
     </div>
 </div>
 

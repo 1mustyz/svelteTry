@@ -3,8 +3,8 @@
 	import Vertical from "../shared/Vertical.svelte"
 	import Nav from "./Nav.svelte"
 	import MainContent from "./MainContent.svelte";
-    import { TextField } from "smelte";
-    import {Button,Icon} from "smelte";
+    // import { TextField } from "smelte";
+    // import {Button,Icon} from "smelte";
     import Avatar from "../shared/Avatar.svelte";
 
     export let active
@@ -22,7 +22,7 @@
     <div class="align">
         <Header />
 
-        <div class="profile-pic">
+        <!-- <div class="profile-pic">
             <Avatar type="medium">
                 <img class="img-avat" src="../musty-avatar.jpg" alt="">
             </Avatar>
@@ -66,7 +66,7 @@
             <div>
 
                 <TextField label="Department" outlined hint="Department" disabled bind:value={fields.department}/>
-            </div>
+            </div> -->
 
            
         </form>

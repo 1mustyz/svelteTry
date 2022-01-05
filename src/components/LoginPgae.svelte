@@ -1,7 +1,7 @@
 <script>
     import FaRegUser from 'svelte-icons/fa/FaRegUser.svelte'
-    import { TextField } from "smelte";
-    import {Button,Icon} from "smelte";
+    // import { TextField } from "smelte";
+    // import {Button,Icon} from "smelte";
 
     let fields = {idNumber: "", password: ""}
     let errors = {idNumber: "", password: ""}
@@ -47,7 +47,7 @@
         <h6 class="text">Have an account?</h6>
     </div>
 
-    <form action="" class="login" >
+    <!-- <form action="" class="login" >
         <TextField label="ID NO." outlined hint="ID NO." bind:value={fields.idNumber} />
         <TextField label="Password" outlined hint="Password" bind:value={fields.password} />
     </form>
@@ -59,7 +59,7 @@
 
     <div class="btn" >
         <Button color="primary" dark block on:click={submitHandler}>Log In</Button>
-    </div>
+    </div> -->
 </div>
 
 <style>
